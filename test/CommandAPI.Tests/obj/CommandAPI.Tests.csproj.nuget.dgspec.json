@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rushlin/Downloads/code/CommandAPISolution/test/CommandAPI.Tests/CommandAPI.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/rushlin/Downloads/code/CommandAPISolution/src/CommandAPI/CommandAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rushlin/Downloads/code/CommandAPISolution/src/CommandAPI/CommandAPI.csproj",
+        "projectName": "CommandAPI",
+        "projectPath": "/Users/rushlin/Downloads/code/CommandAPISolution/src/CommandAPI/CommandAPI.csproj",
+        "packagesPath": "/Users/rushlin/.nuget/packages/",
+        "outputPath": "/Users/rushlin/Downloads/code/CommandAPISolution/src/CommandAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rushlin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rushlin/Downloads/code/CommandAPISolution/test/CommandAPI.Tests/CommandAPI.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rushlin/Downloads/code/CommandAPISolution/test/CommandAPI.Tests/CommandAPI.Tests.csproj",
+        "projectName": "CommandAPI.Tests",
+        "projectPath": "/Users/rushlin/Downloads/code/CommandAPISolution/test/CommandAPI.Tests/CommandAPI.Tests.csproj",
+        "packagesPath": "/Users/rushlin/.nuget/packages/",
+        "outputPath": "/Users/rushlin/Downloads/code/CommandAPISolution/test/CommandAPI.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rushlin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/rushlin/Downloads/code/CommandAPISolution/src/CommandAPI/CommandAPI.csproj": {
+                "projectPath": "/Users/rushlin/Downloads/code/CommandAPISolution/src/CommandAPI/CommandAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
